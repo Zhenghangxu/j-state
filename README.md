@@ -1,11 +1,16 @@
-# Documentation for `j-state.js`: A Simplistic Frontend UI State Management Script
+# `j-state.js`: A Minimalistic javscript state management based on CSS variable
 
 This library contains several helper functions for managing and rendering state in a custom templating framework.
 It uses CSS variable as a state management solution; all states are created globally and share across one session
 
-- Highly performant
+- can be highly performant (optimization in progress)
 - Provides a `setJState()`helper function to set/change a global state
 - Provides a `subscribeToJState()` helper function to trigger actions based on state change
+
+## How it works
+- States are stored as css variable in the document root (as such, state can only be number or string)
+- Anytime a state is set/changed, a "js-state-change" event with details will be send on the document object and propogate down the DOM tree.
+- A DOM Fragment array is stored as a window object, this will be the html template 
   
 
 ## Get Started
