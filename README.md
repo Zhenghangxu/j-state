@@ -1,4 +1,4 @@
-# Documentation for `j-state.js`
+# Documentation for `j-state.js`: A Simplistic Frontend UI State Management Script
 
 This library contains several helper functions for managing and rendering state in a custom templating framework.
 It uses CSS variable as a state management solution; all states are created globally and share across one session
