@@ -1,4 +1,4 @@
-# `j-state.js`: A Minimalistic javscript state management based on CSS variable
+# `j-state.js`: Use CSS variable As a State Management Solution
 
 This library contains several helper functions for managing and rendering state in a custom templating framework.
 It uses CSS variable as a state management solution; all states are created globally and share across one session
