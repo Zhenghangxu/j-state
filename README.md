@@ -3,6 +3,11 @@
 This library contains several helper functions for managing and rendering state in a custom templating framework.
 It uses CSS variable as a state management solution; all states are created globally and share across one session
 
+- Highly performant
+- Provides a `setJState()`helper function to set/change a global state
+- Provides a `subscribeToJState()` helper function to trigger actions based on state change
+  
+
 ## Get Started
 ```
 import initJState from "./src/methods";
